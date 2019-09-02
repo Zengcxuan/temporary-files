@@ -47,8 +47,9 @@ UE ---EPS Bearer---- PGW (E-RAB + S5/S8 Bearer = EPS) </br>
 
 ### RRC
 ** TS36.331</BR> **
-Radio Resource Control, 指定信令承载、无线承载；参与待机与联机的多种处理机制。
-通过RRC信令链接UE与eNB。（只存在于连接状态）在LTE中RRC连接对应SRB1
+Radio Resource Control,无线资源分配与控制： 指定信令承载、无线承载；参与待机与联机的多种处理机制。
+联机态才会建立RRC连接，通过RRC信令连接UE与eNB。在LTE中RRC连接对应SRB1。
+
 
 ### PDCP
 ** TS36.323</BR> **
